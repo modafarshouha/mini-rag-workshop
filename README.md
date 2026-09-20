@@ -1,4 +1,14 @@
-# Teach a chatbot to read your documents
+# Telling AI What It Doesn't Know: From NLP to RAG
+
+## Overview
+
+RAG is a common industrial framework for developing AI-based applications: search over company docs, support bots, compliance Q&A, internal copilots. This session walks through how that kind of setup actually works.
+
+We’ll cover why language has to be processed, how talking to AI turns your words into numbers and vectors, and how the model answers you in text again. Then we look at what happens in real deployments: the model can sound sure and still be wrong. That’s hallucination, and in industry it’s not a minor issue. Wrong answers can mean bad decisions, bad customer advice, or bad code in live systems.
+
+RAG is one standard way teams reduce that risk: retrieve from your knowledge bases and libraries, then generate from that context. We’ll close with a hands-on exercise so you can try the pipeline yourself.
+
+## Notebook
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/modafarshouha/mini-rag-workshop/blob/main/rag_workshop.ipynb)
 
